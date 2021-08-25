@@ -1,6 +1,18 @@
-function takeInput(){
-    var newTask = document.getElementById("task-input").Value;
-    let listItems = [];
-    listItems.push(newTask.String())
-    document.getElementById("new-task").innerHTML = listItems;
+let tasks = [];
+let taskinputElement = document.getElementById("taskInput")
+let tasklistElement = document.getElementById("tasks")
+
+function takeInput(newTask) {
+    tasks.push(newTask.value)
+    renderTasks()
+}
+
+function renderTasks() {
+    var tasksHTML = ""
+    for (var i = 0; i < tasks.length; i++) { 
+        tasksHTML+= "<li>"
+        tasksHTML+= tasks[i] 
+        tasksHTML+= "</li>"
+    }
+    tasklistElement.innerHTML = tasksHTML
 }
