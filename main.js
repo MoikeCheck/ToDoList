@@ -1,4 +1,4 @@
-let tasks = [];
+/*let tasks = [];
 let taskinputElement = document.getElementById("taskInput")
 let tasklistElement = document.getElementById("tasks")
 
@@ -15,4 +15,18 @@ function renderTasks() {
         tasksHTML+= "</li>"
     }
     tasklistElement.innerHTML = tasksHTML
-}
+}*/
+
+let listItems = [];
+
+function takeInput(){
+    var newTask = document.getElementById("task-input").value
+    listItems.push(newTask)
+
+    var tasksList = ""
+    var arrayLength = listItems.length
+    for (let i = 0; i < arrayLength; i++){
+        tasksList += "<li>" + listItems[i] + "</li>"
+    }
+    document.getElementById("tasks").innerHTML = tasksList
+} 
