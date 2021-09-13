@@ -19,6 +19,8 @@ function renderTasks() {
 
 let listItems = [];
 
+// Create a new list item when clicking on the "Add" button
+
 function takeInput(){
     var newTask = document.getElementById("task-input").value
     listItems.push(newTask)

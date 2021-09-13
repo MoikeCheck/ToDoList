@@ -20,3 +20,17 @@ background-color: #8a0707;
 box-shadow: 0 5px #666;
 transform: translateY(4px);
 }
+
+.hero {
+  background-image: url(https://images.pexels.com/photos/1888009/pexels-photo-1888009.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -350px;
+
+}
+
+body {
+  margin: 0;
+}
