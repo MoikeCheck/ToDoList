@@ -7,18 +7,45 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
-
+    <link rel='stylesheet' type='text/css' media='screen' href='scrabble.css'>
 
 
 </head>
     <body>
-        <div class="square"></div>
-        <div class="hero">
-                <input type="text" id="task-input"> </input>
-                <div>
-                    <button class="button" onclick="takeInput()">Add Task</button>
-                </div>  
-                <ul id="tasks"> </ul>
-        </div> 
+            <div class="outer-square" id="a">
+            <div class="square">
+              <span>T</span>
+              </div>
+              <div class="square-bottom">
+              </div>
+            </div>
+            <div class="outer-square" id="b">
+            <div class="square">
+              <span>O</span>
+              </div>
+              <div class="square-bottom">
+              </div>
+            </div>
+            <div class="outer-square" id="c">
+            <div class="square">
+              <span>D</span>
+              </div>
+              <div class="square-bottom">
+              </div>
+            </div>
+            <div class="outer-square" id="d">
+            <div class="square">
+              <span>O</span>
+              </div>
+              <div class="square-bottom">
+              </div>
+            </div>
+            <input type="text" id="task-input"> </input>
+            <div>
+                <button class="button" onclick="takeInput()">Add Task</button>
+            </div>  
+            <ul id="tasks"> </ul>
+    </div> 
+           
     </body>
 </html>
