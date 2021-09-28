@@ -1,15 +1,16 @@
 
 .button {
-  padding: 15px 25px;
-  font-size: 24px;
+  padding: 10px 15px;
+  font-size: 16px;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #DC143C;
+  background-color: #1fcc53;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  margin-top: 20px;
 }
 
 
@@ -22,15 +23,24 @@ transform: translateY(4px);
 }
 
 .hero {
-  background-image: url(https://images.pexels.com/photos/1888009/pexels-photo-1888009.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-  height: 500px;
-  width: 100%;
+  background-image: url(https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -350px;
-
+  text-align: center;
 }
 
 body {
   margin: 0;
+}
+
+.input-items{
+  padding-top: 500px;
+  padding-bottom: 100px;
+}
+
+@media (max-width:978px){
+  .input-items{
+    padding-top: 250px;
+    padding-bottom: 100px;
+  }
 }
