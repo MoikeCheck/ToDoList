@@ -22,15 +22,13 @@ let listItems = [];
 // Create a new list item when clicking on the "Add" button
 
 function takeInput(){
-    var newTask = document.getElementById("task-input").value
+    var newTask = document.getElementById('task-input').value
     listItems.push(newTask)
 
-    var tasksList = ""
+    var tasksList = ''
     var arrayLength = listItems.length
     for (let i = 0; i < arrayLength; i++){
-        tasksList += "<li>" + listItems[i] + "</li>"
+        tasksList += '<li class="BulletlessList"> <input type="checkbox" id="cbox" class="Checkbox"> <label for="cbox">' + listItems[i] + '</label> </li>'
     }
-    document.getElementById("tasks").innerHTML = tasksList
-} 
-
-    
+    document.getElementById('tasks').innerHTML = tasksList
+};

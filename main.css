@@ -1,4 +1,3 @@
-
 .button {
   padding: 10px 15px;
   font-size: 16px;
@@ -22,25 +21,18 @@ box-shadow: 0 5px #666;
 transform: translateY(4px);
 }
 
-.hero {
-  background-image: url(https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
 body {
   margin: 0;
 }
 
-.input-items{
-  padding-top: 500px;
-  padding-bottom: 100px;
+.BulletlessList{
+  list-style-type: none;
 }
 
-@media (max-width:978px){
-  .input-items{
-    padding-top: 250px;
-    padding-bottom: 100px;
-  }
+
+input[type="checkbox"]:checked + label{
+  text-decoration: line-through;
 }
+  
+
+
