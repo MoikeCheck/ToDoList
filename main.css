@@ -1,14 +1,17 @@
 .button {
-  padding: 15px 25px;
-  font-size: 24px;
+  width: 100px;
+  height: 50px;
+  background: rgb(202,167,50);
+background: linear-gradient(180deg, rgba(202,167,50,1) 0%, rgba(222,190,32,1) 14%, rgba(226,194,33,1) 30%, rgba(221,193,34,1) 97%, rgba(251,240,169,1) 100%);
+  border-radius: 10px 10px 20px 12px;
   text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #DC143C;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+  z-index: 10;
+  position: relative;
+  box-shadow: 30px -13px 40px -3px rgba(0,0,0,0.68);
+-webkit-box-shadow: 30px -13px 40px -3px rgba(0,0,0,0.68);
+-moz-box-shadow: 30px -13px 40px -3px rgba(0,0,0,0.68);
+ border-left: 1px solid rgba(251,240,169,1);
+  border-bottom: 1px solid rgba(251,240,169,0.9);
 }
 
 
