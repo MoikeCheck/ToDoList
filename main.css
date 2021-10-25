@@ -1,5 +1,33 @@
+body{
+  background-color: #33AEDA;
+  padding: 50px;
+}
+
+#header{
+ padding-top: 100px;
+ padding-left: 50px;
+ padding-bottom: 50px;
+}
+
+#app {
+  padding-left: 480px;
+}
+
+.clearfix{
+  clear: both;
+  overflow: hidden;
+}
+
+#tasks{
+  padding: 0 0 0 0;
+}
+
 .button {
+<<<<<<< HEAD
   width: 100px;
+=======
+  width: 50px;
+>>>>>>> a3ccdb81e73a2edd07cafdaca81283f5c8f7dd0f
   height: 50px;
   background: rgb(202,167,50);
 background: linear-gradient(180deg, rgba(202,167,50,1) 0%, rgba(222,190,32,1) 14%, rgba(226,194,33,1) 30%, rgba(221,193,34,1) 97%, rgba(251,240,169,1) 100%);

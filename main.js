@@ -11,7 +11,7 @@ function renderTasks() {
     var tasksHTML = ""
     for (var i = 0; i < tasks.length; i++) { 
         tasksHTML+= "<li>"
-        tasksHTML+= tasks[i] 
+        tasksHTML+= tasks[i] 3
         tasksHTML+= "</li>"
     }
     tasklistElement.innerHTML = tasksHTML
