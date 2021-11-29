@@ -28,7 +28,11 @@ function takeInput(){
     var tasksList = ''
     var arrayLength = listItems.length
     for (let i = 0; i < arrayLength; i++){
-        tasksList += '<li class="BulletlessList"> <input type="checkbox" id="cbox" class="Checkbox"> <label for="cbox">' + listItems[i] + '</label> </li>'
+        tasksList += '<label class="container"><input type="checkbox"><span class="checkmark"></span> <p>'+ listItems[i] +'</p> </label>'
     }
     document.getElementById('tasks').innerHTML = tasksList
-};
+
+
+};        
+
+
